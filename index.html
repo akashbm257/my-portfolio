@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="bg-gray-800 text-white p-4 flex position-fixed top-0 left-0 w-full justify-space-between items-center">
+        <img src="logo.jpeg" alt="Logo" class="h-10 w-12 rounded-lg  hover:scale-110"/>
+        <ul class="flex w-full justify-end gap-4">
+            <li><a class="cursor-pointer hover:text-blue-500" href="#home">home</a></li>
+            <li><a class="cursor-pointer hover:text-blue-500" href="#about">about</a></li>
+            <li><a class="cursor-pointer hover:text-blue-500" href="#contact">contact</a></li>
+        </ul>
+    </nav>
+    <home id="home" class="hero-background flex flex-col h-screen justify-center items-center py-12 min-h-screen w-full">
+        <img src="profile.jpg" alt="Hero Image" class="h-32 w-32 object-cover mb-5 rounded-full hover:scale-150"/>
+        <h1 class="text-4xl font-bold mb-4 text-white">Hi! I'M Akash</h1>
+        <p class="text-lg font-semibold text-white">It's My First Protfolio page Using Tailwind CSS </p  >
+        <p class="text-lg text-white text-center max-w-2xl mb-8 my-4 font-semibold">
+            I'm a passionated Frontend Developer who builds modern , responsive and user-friendly websites. I specialize in creating intuitive user experiences with clean, efficient code.
+            in HTML,CSS and TAILWIND CSS. I am always eager to learn new technologies and stay up-to-date with the latest trends in web development.
+        </p>
+        <button class="bg-blue-500 text-white py-2 px-8 rounded hover:bg-blue-900 m-auto">Continue</button>
+    </home>
+    <section id="about" class="hero-background flex min-h-screen w-full flex-col items-center py-12 html">
+        <h1 class="text-4xl font-bold mb-4 text-white">Skills</h1>
+        <hr class="border-t-2 border-gray-300 w-1/4 mb-8">
+        <p class="text-lg font-semibold text-white">Frontend Development</p>
+
+        <div class="flex w-full max-w-2xl flex-wrap justify-end gap-4 px-4 sm:justify-center">
+            <div class="flex w-32 flex-col items-center rounded-lg p-4 transition-transform duration-300 hover:scale-150">
+                <img src="html-icon.jpg" alt="HTML icon" class="mb-4 h-16 w-16"/>
+                <h2 class="text-xl font-bold text-white">HTML</h2>
+            </div>
+            <div class="flex w-32 flex-col items-center rounded-lg p-4 transition-transform duration-300 hover:scale-150">
+                <img src="tailwindcss.jpg" alt="Tailwind CSS icon" class="mb-4 h-16 w-16"/>
+                <h2 class="text-xl font-bold text-white">Tailwind CSS</h2>
+            </div>
+            <div class="flex w-32 flex-col items-center rounded-lg p-4 transition-transform duration-300 hover:scale-150">
+                <img src="JavaScript.jpg" alt="JavaScript icon" class="mb-4 h-16 w-16"/>
+                <h2 class="text-xl font-bold text-white">JavaScript</h2>
+            </div>
+            <div class="flex w-32 flex-col items-center rounded-lg p-4 transition-transform duration-300 hover:scale-150">
+                <img src="reactjs.jpg" alt="React.js icon" class="mb-4 h-16 w-16"/>
+                <h2 class="text-xl font-bold text-white">React.js</h2>
+            </div>
+            <div class="flex w-32 flex-col items-center rounded-lg p-4 transition-transform duration-300 hover:scale-150">
+                <img src="github.jpg" alt="GitHub icon" class="mb-4 h-16 w-16"/>
+                <h2 class="text-xl font-bold text-white">GitHub</h2>
+            </div>
+            <div class="flex w-32 flex-col items-center rounded-lg p-4 transition-transform duration-300 hover:scale-150">
+                <img src="typescript.jpg" alt="TypeScript icon" class="mb-4 h-16 w-16"/>
+                <h2 class="text-xl font-bold text-white">TypeScript</h2>
+            </div>
+        </div>
+    </section>
+    <contact id="contact" class="hero-background flex min-h-screen w-full flex-col items-center py-12 contact">
+        <h1 class="text-4xl font-bold mb-4 text-white">Contact</h1>
+        <hr class="border-t-2 border-gray-300 w-1/4 mb-8">
+        <p class="text-lg font-semibold text-white">Get in touch with me!</p>
+
+        <div class="flex w-full max-w-2xl flex-wrap justify-end gap-4 px-4 sm:justify-center">
+            <div class="flex w-32 flex-col items-center rounded-lg p-4 transition-transform duration-300 hover:scale-150">
+                <img src="whatsapp.jpg" alt="HTML icon" class="mb-4 h-12 w-12 rounded-full"/>
+                <h2 class="text-xl font-sm text-white">+91 9880609156</h2>
+            </div>
+            <div class="flex w-32 flex-col items-center rounded-lg p-4 transition-transform duration-300 hover:scale-150">
+                <img src="linkdin.jpg" alt="Tailwind CSS icon" class="mb-4 h-12 w-12 rounded-full"/>
+                <a href="https://www.linkedin.com/in/akashbm-dev" target="_blank" class="text-xl font-sm text-white">LinkedIn</a>
+            </div>
+            <div class="flex w-32 flex-col items-center rounded-lg p-4 transition-transform duration-300 hover:scale-150">
+                <img src="github.jpg" alt="GitHub icon" class="mb-4 h-12 w-12 rounded-full" />
+                <a href="https://github.com/akashbm-dev" target="_blank" class="text-xl font-sm text-white">GitHub</a>
+            </div>
+        </div>
+    </contact>
+</body>
+</html>

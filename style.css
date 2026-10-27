@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-background {
+    background-color: #080b12;
+    background-image:
+        linear-gradient(to right, #080b12 0%, #102a4c 45%, rgb(16 42 76 / 20%) 100%),
+        url("./background.jpeg");
+    background-size: cover, auto 100%;
+    background-position: center, right center;
+    background-repeat: no-repeat;
+}
+html {
+    scroll-behavior: smooth;
+}
+contact{
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 640px) {
+    .hero-background {
+        background-size: cover, 100% auto;
+    }
+}
